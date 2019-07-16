@@ -38,3 +38,14 @@ success "Homebrew packages installed"
 info "Configuring MacOS settings"
 ./macos/set-defaults.sh
 success "MacOS settings configured"
+
+info "Configuring NeoVim"
+./neovim/install.sh
+success "NeoVim configured"
+
+info "Setting FISH as default shell (logout is needed)"
+sudo sh -c "echo $(which fish) >> /etc/shells"
+chsh -s $(which fish)
+success "FISH shell is set as default"
+
+success "DONE"
