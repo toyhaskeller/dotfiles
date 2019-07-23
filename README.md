@@ -65,3 +65,7 @@ TODO manually:
 TODO: ~/.local/share/nvim/backup folder creation in install.sh
 TODO: cp neovim/space.vim neovim/plugged/vim-airline-themes/autoload/airline/themes/space.vim after everything has been installed for neovim
 TODO: try catch in init.vim so that when initial install happens there isn't a flood of errors
+
+:CocInstall coc-phpls --- for php language server
+haskell-ide-engine guide from github page should be used to install hie to support haskell lsp
+TODO: coc-settings should be added for haskell ide engine in readme

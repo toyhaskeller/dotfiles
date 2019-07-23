@@ -33,6 +33,12 @@ Plug 'othree/yajs.vim'
 Plug 'HerringtonDarkholme/yats.vim'
 
 
+" ===== PHP =====
+
+" An up-to-date Vim syntax for PHP (7.x supported)
+Plug 'StanAngeloff/php.vim'
+
+
 " ===== Color Schemes =====
 
 Plug 'icymind/neosolarized'

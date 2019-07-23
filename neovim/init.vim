@@ -271,8 +271,8 @@ call denite#custom#map('insert,normal', "<C-t>", '<denite:do_action:tabopen>')
 call denite#custom#map('insert,normal', "<C-v>", '<denite:do_action:vsplit>')
 call denite#custom#map('insert,normal', "<C-h>", '<denite:do_action:split>')
 
-call denite#custom#map('insert', '<C-j>', '<denite:move_to_next_line>', 'noremap')
-call denite#custom#map('insert', '<C-k>', '<denite:move_to_previous_line>', 'noremap')
+call denite#custom#map('insert', 'j', '<denite:move_to_next_line>', 'noremap')
+call denite#custom#map('insert', 'k', '<denite:move_to_previous_line>', 'noremap')
 
 " Custom options for Denite
 "   auto_resize             - Auto resize the Denite window height automatically.
