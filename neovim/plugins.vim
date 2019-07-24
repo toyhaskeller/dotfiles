@@ -15,28 +15,22 @@ Plug 'rstacruz/vim-closer'
 Plug 'Shougo/denite.nvim', { 'commit': '29bfd4c53271c7a150def2388e059746ae4c1713' }
 
 
-" ===== Haskell =====
+" ===== Syntax highlighting and indentation =====
 
-" Improved syntax highlighting and indentation
+" Haskell
 Plug 'neovimhaskell/haskell-vim'
 
-
-" ===== JavaScript =====
-
-" Improved syntax highlighting and indentation
+" JavaScript
 Plug 'othree/yajs.vim'
 
-
-" ===== TypeScript =====
-
-" Improved syntax highlighting and indentation
+" TypeScript
 Plug 'HerringtonDarkholme/yats.vim'
 
-
-" ===== PHP =====
-
-" An up-to-date Vim syntax for PHP (7.x supported)
+" PHP
 Plug 'StanAngeloff/php.vim'
+
+" Scala
+Plug 'derekwyatt/vim-scala'
 
 
 " ===== Color Schemes =====

@@ -318,6 +318,8 @@ nnoremap <leader>fw :<C-u>DeniteCursorWord grep:.<CR>
 
 " ===== CoC (language server support) =====
 
+au BufRead,BufNewFile *.sbt set filetype=scala
+
 " Color changes
 hi! link CocErrorSign WarningMsg
 hi! link CocWarningSign Number
@@ -346,6 +348,9 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" Remap for rename current word
+nmap <leader>rn <Plug>(coc-rename)
 
 " Use K to show documentation in preview window
 nnoremap <silent> K :call <SID>show_documentation()<CR>
