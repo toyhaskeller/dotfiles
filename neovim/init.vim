@@ -138,8 +138,8 @@ endtry
 
 " ===== NERDTree =====
 
-map <Leader>nt :NERDTreeToggle<CR>
-map <Leader>nf :NERDTreeFind<CR>
+map <Leader>nt :NERDTreeToggle<Bar>wincmd p<CR>
+map <Leader>nf :NERDTreeFind<Bar>wincmd p<CR>
 
 " Custom icons for expandable/expanded directories
 let g:NERDTreeDirArrowExpandable = '↳'
